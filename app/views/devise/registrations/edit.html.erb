@@ -1,0 +1,27 @@
+<div class="form-actions edit-page">
+    <h2 class="form-horizontal">Edit Account</h2>
+
+    <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+      <%= f.error_notification %>
+
+      <% if current_user.admin? %>
+        <%= f.label :year %>
+        <%= f.select :year, [['Freshman','freshman'],['Sophomore','sophomore'],['Junior','junior'], ['Senior', 'senior'], ['Super Senior', 'super senior']] %><br><br>
+        <%= f.label :school %>
+        <%= f.collection_select(:school, School.all, :id, :name) %><br><br>
+        <%= f.label :team %>
+        <%= f.collection_select(:team, Team.all, :id, :name) %><br><br>
+      <% end %>
+
+      <%= f.label :current_password %>
+      <%= f.password_field :current_password %><br><br>
+      <%= f.label :password %>
+      <%= f.password_field :password, label: "New Password", autocomplete: "off" %><br><br>
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation, label: "New Password Confirmation", autocomplete: "off" %><br><br>
+
+
+        <%= f.submit "Update", class: "btn btn-primary btn-large" %>
+    <% end %>
+
+  </div>

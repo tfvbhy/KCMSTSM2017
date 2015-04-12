@@ -1,0 +1,61 @@
+<%= render "pages/home" %>
+
+
+<% if user_signed_in? %>
+<div class = "user-content">
+    <% if current_user.admin? %>
+      <h1>Listing All Finances</h1>
+      <% #= link_to 'New Finance', new_finance_path, class: "btn btn-primary" %>
+      <br>
+
+    <%= simple_form_for(@finance, :html => {:class => 'form-inline'}) do |f| %>
+        <div "control-group controls controls-row">
+        <fieldset>
+          <%= fields_for :user do |u|  %>
+            <%= u.autocomplete_field :fullname, autocomplete_user_fullname_finances_path, :autofocus => true  %>
+          <% end %>
+          <%= f.text_field :date, :font => "11px", :size => 15, :value => Date.today.strftime("%m-%d-%y")  %>
+          <%= f.text_field :supporter_name, :size => 20, :font => "11px" %>
+          <%= f.text_field :cash_amount, :size => 10, :font => "11px" %>
+          <%= f.text_field :check_amount, :size => 10, :font => "11px" %>
+          <%= f.text_field :check_number, :size => 10, :font => "11px" %>
+          <%= f.text_field :notes, :size => 10, :font => "11px" %>
+          <%= f.text_field :data_entry, :size => 10, :font => "11px" %>
+          <%= f.text_field :audit, :size => 10, :font => "11px" %><br><br>
+          <%= f.button :submit, class: "btn btn-primary" %>
+        </fieldset>
+		</div>
+    <% end %>
+
+
+
+    <% else %>
+       <h1><%= current_user.fullname %>'s Finances</h1> <br>
+    <% end %>
+    <% @total_cash = 0 %>
+    <% @total_check = 0 %>
+    <% @total_amount = 0 %>
+
+
+  <div class="container">
+    <%= render "finances_grid" %>
+      <div class ="form-actions">
+        <h3> Current Table Totals </h3>
+        <p> <strong>Total Cash Amount:</strong> $
+        <%= @total_cash %>
+        </p>
+        <p><strong>Total Check Amount:</strong> $
+        <%= @total_check %>
+        </p>
+        <% @total_amount = @total_cash + @total_check %>
+        <p><strong>Total Amount:</strong> $
+        <%= @total_amount %>
+        </p>
+      </div>
+      <% if current_user.admin? %>
+        <button class =  "btn btn-primary wg-external-csv-export-button" data-grid-name = 'g1'> Export To CSV </button>
+      <% end %>
+     <br />
+    </div>
+  </div>
+<% end %>

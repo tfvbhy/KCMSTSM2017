@@ -1,0 +1,27 @@
+<div class="form-actions">
+	<h1 class='form-horizontal'>Register</h1>
+
+	<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+	  <%= devise_error_messages! %>
+	<%= f.label :"Full name" %>
+    <%= f.text_field :fullname %>
+	<br />
+	<%= f.label :Year %>
+    <%= f.select :year, [['Freshman','freshman'],['Sophomore','sophomore'],['Junior','junior'], ['Senior', 'senior'], ['Super Senior', 'super senior']] %>
+    <%= f.label :School %>
+    <%= f.collection_select(:school, School.all, :id, :name) %>
+	<%= f.label :Team %>
+    <%= f.collection_select(:team, Team.all, :id, :name) %>
+	<%= f.label :Email %>
+    <%= f.text_field :email %>
+	<%= f.label :Password %>
+    <%= f.password_field :password %>
+	<%= f.label :"Password confirmation" %>
+    <%= f.password_field :password_confirmation %>
+
+
+  	<%= f.submit "Sign up", class: "btn btn-primary btn-large" %>
+	<% end %>
+
+	<%= render "devise/shared/links" %>
+</div>

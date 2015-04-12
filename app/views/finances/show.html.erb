@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>ID:</b>
+  <%= @finance.user_id %>
+</p>
+
+
+<p>
+  <b>Date:</b>
+  <%= @finance.date %>
+</p>
+
+<p>
+  <b>Supporter name:</b>
+  <%= @finance.supporter_name %>
+</p>
+
+<p>
+  <b>Cash amount:</b>
+  <%= @finance.cash_amount %>
+</p>
+
+<p>
+  <b>Check amount:</b>
+  <%= @finance.check_amount %>
+</p>
+
+<p>
+  <b>Check number:</b>
+  <%= @finance.check_number %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @finance.notes %>
+</p>
+
+<p>
+  <b>Data entry:</b>
+  <%= @finance.data_entry %>
+</p>
+
+<p>
+  <b>Audit:</b>
+  <%= @finance.audit %>
+</p>
+
+
+<%= link_to 'Edit', edit_finance_path(@finance) %> |
+<%= link_to 'Back', finances_path %>

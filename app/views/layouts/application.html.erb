@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KCM STSM Finance</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container">
+		<%= render 'layouts/header' %>
+	</div>
+	<% if user_signed_in? %>
+		<% if current_user.admin? %>
+			<div class ="user-container">
+				<% flash.each do |name, msg| %>
+					<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+				<% end %>
+				<%= yield %>
+			</div>
+		<% else %>
+			<div class ="container">
+				<% flash.each do |name, msg| %>
+					<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+				<% end %>
+				<%= yield %>
+			</div>
+		<% end %>
+	<% else %>
+		<div class ="container">
+			<% flash.each do |name, msg| %>
+				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+			<% end %>
+			<%= yield %>
+		</div>
+	<% end %>
+</body>
+</html>

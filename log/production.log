@@ -1,0 +1,328 @@
+Connecting to database specified by database.yml
+Compiled jquery.js  (3ms)  (pid 7163)
+Compiled jquery_ujs.js  (0ms)  (pid 7163)
+Compiled jquery-ui.js  (8ms)  (pid 7163)
+Compiled bootstrap-transition.js  (0ms)  (pid 7163)
+Compiled bootstrap-affix.js  (0ms)  (pid 7163)
+Compiled bootstrap-alert.js  (0ms)  (pid 7163)
+Compiled bootstrap-button.js  (0ms)  (pid 7163)
+Compiled bootstrap-carousel.js  (0ms)  (pid 7163)
+Compiled bootstrap-collapse.js  (0ms)  (pid 7163)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 7163)
+Compiled bootstrap-modal.js  (0ms)  (pid 7163)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 7163)
+Compiled bootstrap-tab.js  (0ms)  (pid 7163)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 7163)
+Compiled bootstrap-popover.js  (0ms)  (pid 7163)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 7163)
+Compiled bootstrap.js  (153ms)  (pid 7163)
+Compiled wice_grid_processor.js  (759ms)  (pid 7163)
+Compiled wice_grid_init.js  (195ms)  (pid 7163)
+Compiled wice_grid_saved_queries_init.js  (164ms)  (pid 7163)
+Compiled wice_grid.js  (1218ms)  (pid 7163)
+Compiled finances.js  (112ms)  (pid 7163)
+Compiled pages.js  (114ms)  (pid 7163)
+Compiled application.js  (1748ms)  (pid 7163)
+Compiled finances.css  (63ms)  (pid 7163)
+Compiled main.css  (0ms)  (pid 7163)
+Compiled pages.css  (0ms)  (pid 7163)
+Compiled scaffolds.css  (6ms)  (pid 7163)
+Compiled style.css  (1849ms)  (pid 7163)
+Compiled wice_grid.css  (17ms)  (pid 7163)
+Compiled application.css  (1962ms)  (pid 7163)
+Connecting to database specified by database.yml
+Compiled jquery.js  (1ms)  (pid 7163)
+Compiled jquery_ujs.js  (0ms)  (pid 7163)
+Compiled jquery-ui.js  (5ms)  (pid 7163)
+Compiled bootstrap-transition.js  (0ms)  (pid 7163)
+Compiled bootstrap-affix.js  (0ms)  (pid 7163)
+Compiled bootstrap-alert.js  (0ms)  (pid 7163)
+Compiled bootstrap-button.js  (0ms)  (pid 7163)
+Compiled bootstrap-carousel.js  (0ms)  (pid 7163)
+Compiled bootstrap-collapse.js  (0ms)  (pid 7163)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 7163)
+Compiled bootstrap-modal.js  (0ms)  (pid 7163)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 7163)
+Compiled bootstrap-tab.js  (0ms)  (pid 7163)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 7163)
+Compiled bootstrap-popover.js  (0ms)  (pid 7163)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 7163)
+Compiled bootstrap.js  (116ms)  (pid 7163)
+Compiled wice_grid_processor.js  (171ms)  (pid 7163)
+Compiled wice_grid_init.js  (190ms)  (pid 7163)
+Compiled wice_grid_saved_queries_init.js  (194ms)  (pid 7163)
+Compiled wice_grid.js  (580ms)  (pid 7163)
+Compiled finances.js  (111ms)  (pid 7163)
+Compiled pages.js  (116ms)  (pid 7163)
+Compiled application.js  (985ms)  (pid 7163)
+Compiled finances.css  (6ms)  (pid 7163)
+Compiled main.css  (0ms)  (pid 7163)
+Compiled pages.css  (0ms)  (pid 7163)
+Compiled scaffolds.css  (6ms)  (pid 7163)
+Compiled style.css  (1713ms)  (pid 7163)
+Compiled wice_grid.css  (18ms)  (pid 7163)
+Compiled application.css  (1769ms)  (pid 7163)
+Connecting to database specified by database.yml
+Compiled jquery.js  (3ms)  (pid 7465)
+Compiled jquery_ujs.js  (0ms)  (pid 7465)
+Compiled jquery.ui.core.js  (0ms)  (pid 7465)
+Compiled jquery.ui.widget.js  (0ms)  (pid 7465)
+Compiled jquery.ui.accordion.js  (37ms)  (pid 7465)
+Compiled jquery.ui.position.js  (0ms)  (pid 7465)
+Compiled jquery.ui.menu.js  (12ms)  (pid 7465)
+Compiled jquery.ui.autocomplete.js  (32ms)  (pid 7465)
+Compiled jquery.ui.button.js  (1ms)  (pid 7465)
+Compiled jquery.ui.datepicker.js  (26ms)  (pid 7465)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 7465)
+Compiled jquery.ui.draggable.js  (14ms)  (pid 7465)
+Compiled jquery.ui.resizable.js  (2ms)  (pid 7465)
+Compiled jquery.ui.dialog.js  (31ms)  (pid 7465)
+Compiled jquery.ui.droppable.js  (3ms)  (pid 7465)
+Compiled jquery.ui.effect.js  (0ms)  (pid 7465)
+Compiled jquery.ui.effect-blind.js  (30ms)  (pid 7465)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-shake.js  (26ms)  (pid 7465)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 7465)
+Compiled jquery.ui.progressbar.js  (1ms)  (pid 7465)
+Compiled jquery.ui.selectable.js  (4ms)  (pid 7465)
+Compiled jquery.ui.slider.js  (2ms)  (pid 7465)
+Compiled jquery.ui.sortable.js  (6ms)  (pid 7465)
+Compiled jquery.ui.spinner.js  (2ms)  (pid 7465)
+Compiled jquery.ui.tabs.js  (1ms)  (pid 7465)
+Compiled jquery.ui.tooltip.js  (2ms)  (pid 7465)
+Compiled jquery.ui.all.js  (467ms)  (pid 7465)
+Compiled autocomplete-rails.js  (0ms)  (pid 7465)
+Compiled bootstrap-transition.js  (0ms)  (pid 7465)
+Compiled bootstrap-affix.js  (0ms)  (pid 7465)
+Compiled bootstrap-alert.js  (0ms)  (pid 7465)
+Compiled bootstrap-button.js  (0ms)  (pid 7465)
+Compiled bootstrap-carousel.js  (0ms)  (pid 7465)
+Compiled bootstrap-collapse.js  (0ms)  (pid 7465)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 7465)
+Compiled bootstrap-modal.js  (0ms)  (pid 7465)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 7465)
+Compiled bootstrap-tab.js  (0ms)  (pid 7465)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 7465)
+Compiled bootstrap-popover.js  (0ms)  (pid 7465)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 7465)
+Compiled bootstrap.js  (109ms)  (pid 7465)
+Compiled wice_grid_processor.js  (1393ms)  (pid 7465)
+Compiled wice_grid_init.js  (206ms)  (pid 7465)
+Compiled wice_grid_saved_queries_init.js  (156ms)  (pid 7465)
+Compiled wice_grid.js  (1813ms)  (pid 7465)
+Compiled finances.js  (124ms)  (pid 7465)
+Compiled pages.js  (117ms)  (pid 7465)
+Compiled application.js  (2832ms)  (pid 7465)
+Compiled jquery.ui.core.css  (1ms)  (pid 7465)
+Compiled jquery.ui.theme.css  (82ms)  (pid 7465)
+Compiled jquery.ui.accordion.css  (88ms)  (pid 7465)
+Compiled jquery.ui.menu.css  (3ms)  (pid 7465)
+Compiled jquery.ui.autocomplete.css  (10ms)  (pid 7465)
+Compiled jquery.ui.button.css  (3ms)  (pid 7465)
+Compiled jquery.ui.datepicker.css  (4ms)  (pid 7465)
+Compiled jquery.ui.resizable.css  (3ms)  (pid 7465)
+Compiled jquery.ui.dialog.css  (13ms)  (pid 7465)
+Compiled jquery.ui.progressbar.css  (7ms)  (pid 7465)
+Compiled jquery.ui.selectable.css  (2ms)  (pid 7465)
+Compiled jquery.ui.slider.css  (3ms)  (pid 7465)
+Compiled jquery.ui.spinner.css  (21ms)  (pid 7465)
+Compiled jquery.ui.tabs.css  (3ms)  (pid 7465)
+Compiled jquery.ui.tooltip.css  (2ms)  (pid 7465)
+Compiled jquery.ui.base.css  (226ms)  (pid 7465)
+Compiled jquery.ui.all.css  (236ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/finances.css.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Compiled finances.css  (51ms)  (pid 7465)
+Compiled main.css  (0ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/pages.css.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Compiled pages.css  (3ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/scaffolds.css.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Compiled scaffolds.css  (8ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/style.css.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/9d0780397ad8dba1e6fb42ae0be2d74a02fdde6d/bootstrap.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/bootstrap.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_variables.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_mixins.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_reset.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_grid.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_layouts.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_type.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_code.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_forms.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_tables.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_sprites.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_wells.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_component-animations.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_close.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_buttons.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_button-groups.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_alerts.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_navs.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_navbar.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_pagination.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_pager.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_modals.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_tooltip.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_popovers.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_media.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_accordion.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_carousel.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_utilities.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/9d0780397ad8dba1e6fb42ae0be2d74a02fdde6d/bootstrap-responsive.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/responsive.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-1200px-min.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-768px-979px.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-767px-max.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-navbar.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Compiled style.css  (1841ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/wice_grid.css.scssc: can't dump anonymous class #<Class:0x007fe6b1f187c8>
+Compiled wice_grid.css  (25ms)  (pid 7465)
+Compiled application.css  (2286ms)  (pid 7465)
+Connecting to database specified by database.yml
+Compiled jquery.js  (1ms)  (pid 7465)
+Compiled jquery_ujs.js  (0ms)  (pid 7465)
+Compiled jquery.ui.core.js  (0ms)  (pid 7465)
+Compiled jquery.ui.widget.js  (0ms)  (pid 7465)
+Compiled jquery.ui.accordion.js  (9ms)  (pid 7465)
+Compiled jquery.ui.position.js  (0ms)  (pid 7465)
+Compiled jquery.ui.menu.js  (6ms)  (pid 7465)
+Compiled jquery.ui.autocomplete.js  (13ms)  (pid 7465)
+Compiled jquery.ui.button.js  (1ms)  (pid 7465)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 7465)
+Compiled jquery.ui.mouse.js  (1ms)  (pid 7465)
+Compiled jquery.ui.draggable.js  (8ms)  (pid 7465)
+Compiled jquery.ui.resizable.js  (2ms)  (pid 7465)
+Compiled jquery.ui.dialog.js  (23ms)  (pid 7465)
+Compiled jquery.ui.droppable.js  (3ms)  (pid 7465)
+Compiled jquery.ui.effect.js  (0ms)  (pid 7465)
+Compiled jquery.ui.effect-blind.js  (4ms)  (pid 7465)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 7465)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 7465)
+Compiled jquery.ui.progressbar.js  (2ms)  (pid 7465)
+Compiled jquery.ui.selectable.js  (2ms)  (pid 7465)
+Compiled jquery.ui.slider.js  (2ms)  (pid 7465)
+Compiled jquery.ui.sortable.js  (2ms)  (pid 7465)
+Compiled jquery.ui.spinner.js  (2ms)  (pid 7465)
+Compiled jquery.ui.tabs.js  (1ms)  (pid 7465)
+Compiled jquery.ui.tooltip.js  (2ms)  (pid 7465)
+Compiled jquery.ui.all.js  (296ms)  (pid 7465)
+Compiled autocomplete-rails.js  (0ms)  (pid 7465)
+Compiled bootstrap-transition.js  (0ms)  (pid 7465)
+Compiled bootstrap-affix.js  (0ms)  (pid 7465)
+Compiled bootstrap-alert.js  (0ms)  (pid 7465)
+Compiled bootstrap-button.js  (0ms)  (pid 7465)
+Compiled bootstrap-carousel.js  (0ms)  (pid 7465)
+Compiled bootstrap-collapse.js  (0ms)  (pid 7465)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 7465)
+Compiled bootstrap-modal.js  (0ms)  (pid 7465)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 7465)
+Compiled bootstrap-tab.js  (0ms)  (pid 7465)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 7465)
+Compiled bootstrap-popover.js  (0ms)  (pid 7465)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 7465)
+Compiled bootstrap.js  (84ms)  (pid 7465)
+Compiled wice_grid_processor.js  (217ms)  (pid 7465)
+Compiled wice_grid_init.js  (189ms)  (pid 7465)
+Compiled wice_grid_saved_queries_init.js  (162ms)  (pid 7465)
+Compiled wice_grid.js  (624ms)  (pid 7465)
+Compiled finances.js  (118ms)  (pid 7465)
+Compiled pages.js  (120ms)  (pid 7465)
+Compiled application.js  (1314ms)  (pid 7465)
+Compiled jquery.ui.core.css  (1ms)  (pid 7465)
+Compiled jquery.ui.theme.css  (8ms)  (pid 7465)
+Compiled jquery.ui.accordion.css  (13ms)  (pid 7465)
+Compiled jquery.ui.menu.css  (3ms)  (pid 7465)
+Compiled jquery.ui.autocomplete.css  (10ms)  (pid 7465)
+Compiled jquery.ui.button.css  (3ms)  (pid 7465)
+Compiled jquery.ui.datepicker.css  (4ms)  (pid 7465)
+Compiled jquery.ui.resizable.css  (3ms)  (pid 7465)
+Compiled jquery.ui.dialog.css  (12ms)  (pid 7465)
+Compiled jquery.ui.progressbar.css  (2ms)  (pid 7465)
+Compiled jquery.ui.selectable.css  (2ms)  (pid 7465)
+Compiled jquery.ui.slider.css  (3ms)  (pid 7465)
+Compiled jquery.ui.spinner.css  (4ms)  (pid 7465)
+Compiled jquery.ui.tabs.css  (3ms)  (pid 7465)
+Compiled jquery.ui.tooltip.css  (2ms)  (pid 7465)
+Compiled jquery.ui.base.css  (121ms)  (pid 7465)
+Compiled jquery.ui.all.css  (127ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/finances.css.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Compiled finances.css  (38ms)  (pid 7465)
+Compiled main.css  (0ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/pages.css.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Compiled pages.css  (1ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/scaffolds.css.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Compiled scaffolds.css  (6ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/style.css.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/9d0780397ad8dba1e6fb42ae0be2d74a02fdde6d/bootstrap.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/bootstrap.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_variables.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_mixins.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_reset.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_grid.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_layouts.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_type.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_code.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_forms.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_tables.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_sprites.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_wells.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_component-animations.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_close.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_buttons.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_button-groups.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_alerts.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_navs.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_navbar.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_pagination.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_pager.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_modals.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_tooltip.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_popovers.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_media.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_accordion.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_carousel.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_utilities.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/9d0780397ad8dba1e6fb42ae0be2d74a02fdde6d/bootstrap-responsive.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/responsive.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-1200px-min.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-768px-979px.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-767px-max.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/c22e9572ae0b128673bb466e2ac070197e6c2ca4/_responsive-navbar.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Compiled style.css  (1746ms)  (pid 7465)
+Warning. Error encountered while saving cache /Users/tonybaik/Developer/kcmstsm2014/tmp/cache/sass/98ce6001e2bbbdf679d8dd39f3980e4be84df3af/wice_grid.css.scssc: can't dump anonymous class #<Class:0x007f8e1c7b0c80>
+Compiled wice_grid.css  (19ms)  (pid 7465)
+Compiled application.css  (1989ms)  (pid 7465)

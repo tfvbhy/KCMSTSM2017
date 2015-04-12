@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-03-31
+  supporter_name: MyString
+  cash_amount: 1.5
+  check_amount: 1.5
+  check_number: 1
+  notes: MyString
+  data_entry: MyString
+  audit: MyString
+
+two:
+  date: 2013-03-31
+  supporter_name: MyString
+  cash_amount: 1.5
+  check_amount: 1.5
+  check_number: 1
+  notes: MyString
+  data_entry: MyString
+  audit: MyString
