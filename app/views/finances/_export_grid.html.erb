@@ -8,7 +8,7 @@
       User.find(fin.user_id).fullname
     end
     f.column name: 'Team', attribute: 'team', html: {style: 'text-align: center'}, model: 'User' do |fin|
-      fin.user.team
+      Team.find(fin.user.team).name
     end
     f.column name: 'Date', attribute: 'date', html: {style: 'text-align: center'}, model: 'Finance', filter: false do |fin|
       fin.date

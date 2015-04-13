@@ -1,7 +1,7 @@
 if defined?(Wice::Defaults)
 
   # Default number of rows to show per page.
-  Wice::Defaults::PER_PAGE = 50
+  Wice::Defaults::PER_PAGE = 75
 
   # Default order direction
   Wice::Defaults::ORDER_DIRECTION = 'asc'
