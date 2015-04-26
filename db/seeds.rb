@@ -43,10 +43,10 @@ Team.create!(
 
 User.create!(
 	:id => 1,
-	:email => "mishimot@uci.edu",
+	:email => "tsim90@gmail.com",
 	:password => "testing123",
-	:fullname => "Michael Ishimoto",
-	:year => "Junior",
+	:fullname => "Tim Sim",
+	:year => "Senior",
 	:school => "2",
 	:team => "1",
 	:admin => true,

@@ -1,0 +1,25 @@
+<%= simple_form_for(@finance) do |f| %>
+  <%= f.error_notification %>
+
+    <br />
+          <%= f.label :user_id, "ID" %>
+          <%= f.text_field :user_id, :class => "span2" %>
+          <% @input_id = :user_id %>
+          <%= f.label :date, "Date" %>
+          <%= f.date_select :date, :class => "date-select", :default => Date.today  %>
+          <%= f.label :supporter_name, "Supporter Name" %>
+          <%= f.text_field :supporter_name, :class => "span2" %>
+          <%= f.label :cash_amount, "Cash Amount" %>
+          <%= f.text_field :cash_amount, :class => "span2"  %><br><br>
+          <%= f.label :check_amount, "Check Amount" %>
+          <%= f.text_field :check_amount, :class => "span2"  %>
+          <%= f.label :check_number, "Check Number" %>
+          <%= f.text_field :check_number, :class => "span2"  %>
+          <%= f.label :notes, "Notes" %>
+          <%= f.text_field :notes, :class => "span2"  %>
+          <%= f.label :data_entry, "Data Entry" %>
+          <%= f.text_field :data_entry, :class => "span2"  %>
+          <%= f.label :audit, "Audit" %>
+          <%= f.text_field :audit, :class => "span2" %><br><br>
+          <%= f.button :submit, class: "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,24 @@
+<div class = "container">
+  <h1><%= Team.find(current_user.team).name %> Totals Table</h1><br>
+  <table class = "table table-striped table-bordered">
+    <tr class ="info">
+      <td><strong>Name</strong></td>
+      <td><strong>Total Amount</strong></td>
+    </tr>
+	<% @users.each do |u| %>
+	<tr>
+	  <% if u == current_user %>
+	    <td><%= u.fullname + " (Leader)" %></td>
+	  <% else %>
+	    <td><%= u.fullname %></td>
+	  <% end %>
+      <td><%= @member_total_amount[u.id - 1] %> </td>
+	</tr>
+	<% end %>
+    <tr>
+      <td><strong>Overall (Does not include Leader's raised funds)</strong></td>
+      <td><%= @total_amount %></td>
+    </tr>
+  </table>
+
+</div>

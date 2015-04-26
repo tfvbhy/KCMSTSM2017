@@ -1,0 +1,22 @@
+<%= grid(@editusers_grid) do |u|
+
+    u.column name: 'Name', attribute: 'fullname', html: {style: 'text-align: center'}, model: 'User' do |fin|
+      fin.fullname
+    end
+    u.column name: 'Team', attribute: 'team', html: {style: 'text-align: center'}, model: 'User' do |fin|
+      Team.find(fin.team).name
+    end
+    u.column name: 'School', attribute: 'school', html: {style: 'text-align: center'}, model: 'User' do |fin|
+      School.find(fin.school).name
+    end
+    u.column name: 'Year', attribute: 'year', html: {style: 'text-align: center'}, model: 'User' do |fin|
+      fin.year
+    end
+    if current_user.admin?
+      u.column name: 'Edit' do |fin|
+        link_to 'Edit', edit_user_path(fin)
+      end
+    end
+
+
+  end -%>
