@@ -10,9 +10,9 @@
 	<% Team.all.each do |team| %>
 	<tr>
 	  <td><strong><%= Team.find(team.id).name %></strong></td>
-      <td><%= @team_total_cash[team.id - 2] %> </td>
-      <td><%= @team_total_check[team.id - 2] %></td>
-      <td><%= @team_total_amount[team.id - 2] %></td>
+      <td><%= @team_total_cash[team.id - 1] %> </td>
+      <td><%= @team_total_check[team.id - 1] %></td>
+      <td><%= @team_total_amount[team.id - 1] %></td>
 	</tr>
 	<% end %>
 	<tr>
