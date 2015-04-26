@@ -11,12 +11,6 @@
         <%= f.collection_select(:school, School.all, :id, :name) %><br><br>
         <%= f.label :team %>
         <%= f.collection_select(:team, Team.all, :id, :name) %><br><br>
-		<% if current_user.id == 1 %>
-			<%= f.label :admin? %>
-			<%= f.check_box :admin %><br><br>
-			<%= f.label :leader? %>
-			<%= f.check_box :leader %><br><br>
-		<% end %>	
       <% end %>
 
       <%= f.label :current_password %>
