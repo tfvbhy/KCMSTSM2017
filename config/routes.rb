@@ -12,9 +12,12 @@ KcmOnline::Application.routes.draw do
     resources :users
   end
 
-  devise_for :users
+  devise_for :users, :path_prefix => 'my'
+  resources :users
 
   get 'teamtotals' => 'pages#teamtotals'
+  get 'editusers' => 'users#editusers'
+  get 'teammanagement' => 'pages#teammanagement'
 
   root :to => 'finances#index'
 

@@ -7,7 +7,7 @@
     <%= f.text_field :fullname %>
 	<br />
 	<%= f.label :Year %>
-    <%= f.select :year, [['Freshman','freshman'],['Sophomore','sophomore'],['Junior','junior'], ['Senior', 'senior'], ['Super Senior', 'super senior']] %>
+    <%= f.select :year, ['Freshman', 'Sophomore', 'Junior', 'Senior', 'Super Senior'] %>
     <%= f.label :School %>
     <%= f.collection_select(:school, School.all, :id, :name) %>
 	<%= f.label :Team %>

@@ -6,11 +6,17 @@
 
       <% if current_user.admin? %>
         <%= f.label :year %>
-        <%= f.select :year, [['Freshman','freshman'],['Sophomore','sophomore'],['Junior','junior'], ['Senior', 'senior'], ['Super Senior', 'super senior']] %><br><br>
+        <%= f.select :year, ['Freshman','Sophomore','Junior', 'Senior', 'Super Senior'] %><br><br>
         <%= f.label :school %>
         <%= f.collection_select(:school, School.all, :id, :name) %><br><br>
         <%= f.label :team %>
         <%= f.collection_select(:team, Team.all, :id, :name) %><br><br>
+		<% if current_user.id == 1 %>
+			<%= f.label :admin? %>
+			<%= f.check_box :admin %><br><br>
+			<%= f.label :leader? %>
+			<%= f.check_box :leader %><br><br>
+		<% end %>	
       <% end %>
 
       <%= f.label :current_password %>
@@ -19,9 +25,7 @@
       <%= f.password_field :password, label: "New Password", autocomplete: "off" %><br><br>
       <%= f.label :password_confirmation %>
       <%= f.password_field :password_confirmation, label: "New Password Confirmation", autocomplete: "off" %><br><br>
-
-
-        <%= f.submit "Update", class: "btn btn-primary btn-large" %>
+      <%= f.submit "Update", class: "btn btn-primary btn-large" %>
     <% end %>
 
-  </div>
+</div>

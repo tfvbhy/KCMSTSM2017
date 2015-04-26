@@ -7,6 +7,7 @@ gem 'rails', '3.2.12'
 
 gem 'simple_form'
 gem 'devise'
+gem 'cancan'
 gem "wice_grid", '3.2.1'
 gem 'rails3-jquery-autocomplete'
 

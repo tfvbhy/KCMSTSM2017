@@ -1,4 +1,6 @@
 class SchoolsController < ApplicationController
+  before_filter :authenticate_user!, except: []
+  before_filter :adminOnly, except: []
   # GET /schools
   # GET /schools.json
   def index
@@ -79,5 +81,9 @@ class SchoolsController < ApplicationController
       format.html { redirect_to schools_url }
       format.json { head :no_content }
     end
+  end
+  
+  def adminOnly
+	redirect_to root_path, notice: "Not authorized" if !current_user.admin?
   end
 end
