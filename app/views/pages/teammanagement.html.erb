@@ -5,6 +5,7 @@
       <td><strong>Name</strong></td>
       <td><strong>Total Amount</strong></td>
     </tr>
+	<% @counter = 0 %>
 	<% @users.each do |u| %>
 	<tr>
 	  <% if u == current_user %>
@@ -12,8 +13,9 @@
 	  <% else %>
 	    <td><%= u.fullname %></td>
 	  <% end %>
-      <td><%= @member_total_amount[u.id - 1] %> </td>
+      <td><%= @member_total_amount[@counter] %> </td>
 	</tr>
+	<% @counter += 1 %>
 	<% end %>
     <tr>
       <td><strong>Overall (Does not include Leader's raised funds)</strong></td>

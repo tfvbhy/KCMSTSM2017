@@ -1,10 +1,12 @@
 <div class="form-actions edit-page">
-    <h2 class="form-horizontal">Edit Account</h2>
+    <h2 class="form-horizontal">Edit <%= @user.fullname %>'s Account</h2>
 
     <%= simple_form_for(@user) do |f| %>
       <%= f.error_notification %>
 
       <% if current_user.admin? %>
+	    
+		<%= f.input :fullname %>
         <%= f.label :year %>
         <%= f.select :year, ['Freshman','Sophomore','Junior', 'Senior', 'Super Senior'] %><br><br>
         <%= f.label :school %>
