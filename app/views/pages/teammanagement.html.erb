@@ -1,5 +1,5 @@
 <div class = "container">
-  <h1><%= Team.find(current_user.team).name %> Totals Table</h1><br>
+  <h1><%= Team.find(current_user.team.to_i).name %> Totals Table</h1><br>
   <table class = "table table-striped table-bordered">
     <tr class ="info">
       <td><strong>Name</strong></td>
@@ -8,7 +8,7 @@
 	<% @counter = 0 %>
 	<% @users.each do |u| %>
 	<tr>
-	  <% if u == current_user %>
+	  <% if u.leader? %>
 	    <td><%= u.fullname + " (Leader)" %></td>
 	  <% else %>
 	    <td><%= u.fullname %></td>
