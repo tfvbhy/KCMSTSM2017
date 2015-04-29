@@ -8,7 +8,6 @@ body
     background-color: #fff;
     margin: 0 0;
     padding: 0 0;
-    background-image: url('/assets/classy_fabric.png');
 }
 
 ul 
@@ -120,7 +119,6 @@ a
 
 .user-container
 {
-    background-image: url('/assets/classy_fabric.png');
     position: absolute;
     top: 42;
     left: 0;
