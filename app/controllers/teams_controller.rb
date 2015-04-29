@@ -82,6 +82,6 @@ class TeamsController < ApplicationController
   end
   
   def staffOnly
-	redirect_to root_path, notice: "Not authorized" if !current_user.admin || !current_user.leader?
+	redirect_to root_path, notice: "Not authorized" if !(current_user.admin? || current_user.leader?)
   end
 end
