@@ -1,6 +1,6 @@
 class TeamsController < ApplicationController
   before_filter :authenticate_user!, except: []
-  before_filter :adminOnly, except: []
+  before_filter :staffOnly, except: []
   # GET /teams
   # GET /teams.json
   def index
@@ -81,7 +81,7 @@ class TeamsController < ApplicationController
     end
   end
   
-  def adminOnly
+  def staffOnly
 	redirect_to root_path, notice: "Not authorized" if !current_user.admin || !current_user.leader?
   end
 end
