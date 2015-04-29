@@ -39,7 +39,6 @@ class PagesController < ApplicationController
 	if user_signed_in?
       if current_user.leader?
 	    @users = User.where(:team => Team.find(current_user.team)).order("id")
-		#@team = Team.find(current_user.team.to_i)
 		@total_amount = 0
 		@member_total_amount = Array.new(@users.size, 0)
 	
