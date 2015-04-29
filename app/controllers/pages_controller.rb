@@ -38,8 +38,7 @@ class PagesController < ApplicationController
   def teammanagement
 	if user_signed_in?
       if current_user.leader?
-	    @users = User.where(:team => Team.find(current_user.team)).order("id")
-		@team_id = current_user.team
+	    @users = User.where(:team => Team.find(current_user.team))
 		@total_amount = 0
 		@member_total_amount = Array.new(@users.size, 0)
 	
@@ -51,13 +50,6 @@ class PagesController < ApplicationController
 		  end
 		  @counter += 1
 		end
-		
-#		@teammanagement_grid = initialize_grid(User,
-#          :name => 'g3',
-#          :order => 'users.id',
-#          :order_direction => 'desc',
-#          :enable_export_to_csv => true,
-#          :csv_file_name => 'KCMSTSMUSERS')
 	  end
 	end
   end
