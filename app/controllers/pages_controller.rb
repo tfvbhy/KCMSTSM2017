@@ -58,14 +58,18 @@ class PagesController < ApplicationController
 	if user_signed_in?
 	  if current_user.leader?
 	    @user = User.find(params[:id])
-		@finances_grid = initialize_grid(Finance,
-          :include => [:user],
-          :order => 'finances.id',
-          :order_direction => 'desc',
-          :conditions => "user_id = #{@user.id}" )
-        @total_cash = @user.finances.sum("cash_amount")
-        @total_check = @user.finances.sum("check_amount")
-        @total_amount = @total_cash + @total_check
+		if current_user.team != @user.team
+		  redirect_to root_path, notice: "Not authorized"
+		else
+		  @finances_grid = initialize_grid(Finance,
+            :include => [:user],
+            :order => 'finances.id',
+            :order_direction => 'desc',
+            :conditions => "user_id = #{@user.id}" )
+          @total_cash = @user.finances.sum("cash_amount")
+          @total_check = @user.finances.sum("check_amount")
+          @total_amount = @total_cash + @total_check
+		end
 	  end
 	end
   end
