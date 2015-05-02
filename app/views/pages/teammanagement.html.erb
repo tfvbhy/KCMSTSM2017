@@ -9,9 +9,9 @@
 	<% @users.each do |u| %>
 	<tr>
 	  <% if u.leader? %>
-	    <td><%= u.fullname + " (Leader)" %></td>
+	    <td><%= link_to u.fullname + " (Leader)", root_path %></td>
 	  <% else %>
-	    <td><%= u.fullname %></td>
+	    <td><%= link_to u.fullname, leaderlookup_path(:id => u.id) %></td>
 	  <% end %>
       <td><%= @member_total_amount[@counter] %> </td>
 	</tr>

@@ -18,6 +18,7 @@ KcmOnline::Application.routes.draw do
   get 'teamtotals' => 'pages#teamtotals'
   get 'editusers' => 'users#editusers'
   get 'teammanagement' => 'pages#teammanagement'
+  get 'leaderlookup' => 'pages#leaderlookup'
 
   root :to => 'finances#index'
 

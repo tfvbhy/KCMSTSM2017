@@ -1,0 +1,18 @@
+<div class="container">
+  <%= render :partial => "finances/finances_grid" %>
+    <div class ="form-actions">
+      <h3> Current Table Totals </h3>
+      <p> <strong>Total Cash Amount:</strong> $
+      <%= @total_cash %>
+      </p>
+      <p><strong>Total Check Amount:</strong> $
+      <%= @total_check %>
+      </p>
+      <% @total_amount = @total_cash + @total_check %>
+      <p><strong>Total Amount:</strong> $
+      <%= @total_amount %>
+      </p>
+    </div>
+   <br />
+  </div>
+</div>
