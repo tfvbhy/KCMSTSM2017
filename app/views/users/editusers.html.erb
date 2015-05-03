@@ -16,6 +16,11 @@
       u.column name: 'Edit' do |fin|
         link_to 'Edit', edit_user_path(fin)
       end
+      u.column name: 'Delete' do |fin|
+	    if !fin.admin?
+          link_to 'Delete', fin, method: :delete, data: { confirm: 'Are you sure?' }
+		end
+      end
     end
 
 

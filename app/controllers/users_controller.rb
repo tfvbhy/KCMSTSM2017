@@ -38,13 +38,16 @@ class UsersController < ApplicationController
     end
   end
 
-#  def destroy
-#    @user = User.find(params[:id])
-#    if @user.destroy
-#      flash[:notice] = "Successfully deleted User."
-#      redirect_to root_path
-#    end
-#  end 
+  def destroy
+    if current_admin_user
+      @user = User.find(params[:id])
+	  @user.finances.destroy_all
+      if @user.destroy
+        flash[:notice] = "Successfully deleted User."
+        redirect_to root_path
+      end
+	end
+  end 
   
   def editusers
 	@editusers_grid = initialize_grid(User,
