@@ -38,7 +38,7 @@ class PagesController < ApplicationController
   def teammanagement
 	if user_signed_in?
       if current_user.leader?
-	    @users = User.where(:team => current_user.team)
+	    @users = User.where(:team => current_user.team).order(:id)
 		@total_amount = 0
 		@member_total_amount = Array.new(@users.size, 0)
 	
