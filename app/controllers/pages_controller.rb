@@ -66,6 +66,10 @@ class PagesController < ApplicationController
 		if current_user.team != @user.team && !current_user.admin?
 		  redirect_to root_path, notice: "Not authorized"
 		else
+		  @team_filter = Array.new
+		  Team.all.each do |team|
+			@team_filter.push [team.name, team.id]
+		  end
 		  @finances_grid = initialize_grid(Finance,
             :include => [:user],
             :order => 'finances.id',
