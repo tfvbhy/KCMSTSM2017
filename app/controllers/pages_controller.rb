@@ -37,18 +37,23 @@ class PagesController < ApplicationController
   
   def teammanagement
 	if user_signed_in?
-      if current_user.leader?
-	    @users = User.where(:team => current_user.team).order(:id)
+      if current_user.leader? || current_user.admin?
+		@team_id = params[:id]
+	    @users = User.where(:team => @team_id).order(:id)
 		@total_amount = 0
 		@member_total_amount = Array.new(@users.size, 0)
-	
-		@counter = 0
-		@users.each do |u| 
-		  @member_total_amount[@counter] = u.finances.sum("cash_amount") + u.finances.sum("check_amount")
-		  if !u.leader?
-		    @total_amount += @member_total_amount[@counter]
+		
+		if current_user.team != @team_id && !current_user.admin?
+		  redirect_to root_path, notice: "Not authorized"
+		else
+		  @counter = 0
+		  @users.each do |u| 
+		    @member_total_amount[@counter] = u.finances.sum("cash_amount") + u.finances.sum("check_amount")
+		    if !u.leader?
+		      @total_amount += @member_total_amount[@counter]
+		    end
+		    @counter += 1
 		  end
-		  @counter += 1
 		end
 	  end
 	end
@@ -56,9 +61,9 @@ class PagesController < ApplicationController
   
   def leaderlookup
 	if user_signed_in?
-	  if current_user.leader?
+	  if current_user.leader?  || current_user.admin?
 	    @user = User.find(params[:id])
-		if current_user.team != @user.team
+		if current_user.team != @user.team && !current_user.admin?
 		  redirect_to root_path, notice: "Not authorized"
 		else
 		  @finances_grid = initialize_grid(Finance,

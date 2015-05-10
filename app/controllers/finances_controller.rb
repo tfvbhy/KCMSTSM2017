@@ -26,9 +26,9 @@ class FinancesController < ApplicationController
           :csv_file_name => 'KCMSTSMFINANCES')
 
       else
-	  	@team_filter = Array.new(Team.all.size)
+	  	@team_filter = Array.new
 		Team.all.each do |team|
-			@team_filter[team.id] = [team.name, team.id]
+			@team_filter.push [team.name, team.id]
 		end
 		
         @finances_grid = initialize_grid(Finance,
