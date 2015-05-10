@@ -78,8 +78,9 @@ class FinancesController < ApplicationController
 
   # GET /finances/1/edit
   def edit
+	session[:return_to] ||= request.referer
     if current_admin_user
-    @finance = Finance.find(params[:id])
+      @finance = Finance.find(params[:id])
     end
   end
 
@@ -110,7 +111,7 @@ class FinancesController < ApplicationController
 
       respond_to do |format|
         if @finance.update_attributes(params[:finance])
-          format.html { redirect_to root_path, notice: 'Finance was successfully updated.' }
+          format.html { redirect_to session.delete(:return_to), notice: 'Finance was successfully updated.' }
           format.json { head :no_content }
         else
           format.html { render action: "edit" }
