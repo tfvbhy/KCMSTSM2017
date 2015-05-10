@@ -57,14 +57,14 @@
       <div class ="form-actions">
         <h3> Current Table Totals </h3>
         <p> <strong>Total Cash Amount:</strong> $
-        <%= @total_cash %>
+        <%= number_with_precision(@total_cash, :precision => 2, :delimiter => ',') %>
         </p>
         <p><strong>Total Check Amount:</strong> $
-        <%= @total_check %>
+        <%= number_with_precision(@total_check, :precision => 2, :delimiter => ',') %>
         </p>
         <% @total_amount = @total_cash + @total_check %>
         <p><strong>Total Amount:</strong> $
-        <%= @total_amount %>
+        <%= number_with_precision(@total_amount, :precision => 2, :delimiter => ',') %>
         </p>
       </div>
       <% if current_user.admin? %>

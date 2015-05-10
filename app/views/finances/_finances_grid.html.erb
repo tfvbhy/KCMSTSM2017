@@ -16,13 +16,13 @@
       if fin.cash_amount != nil
         @total_cash += fin.cash_amount
       end
-      fin.cash_amount
+      number_with_precision(fin.cash_amount, :precision => 2, :delimiter => ',')
     end
     f.column name: 'Check Amount', attribute: 'check_amount', html: {style: 'text-align: center'}, model: 'Finance', filter: false do |fin|
       if fin.check_amount != nil
         @total_check += fin.check_amount
       end
-      fin.check_amount
+	  number_with_precision(fin.check_amount, :precision => 2, :delimiter => ',')
     end
     if current_user.admin?
       f.column name: 'Notes', attribute: 'notes', html: {style: 'text-align: center'}, filter: false, model: 'Finance' do |fin|

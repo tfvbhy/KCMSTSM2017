@@ -13,13 +13,13 @@
 	  <% else %>
 	    <td><%= link_to u.fullname, leaderlookup_path(:id => u.id) %></td>
 	  <% end %>
-      <td><%= @member_total_amount[@counter] %> </td>
+      <td><%= number_with_precision(@member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
 	</tr>
 	<% @counter += 1 %>
 	<% end %>
     <tr>
       <td><strong>Overall (Does not include Leader's raised funds)</strong></td>
-      <td><%= @total_amount %></td>
+      <td><%= number_with_precision(@total_amount, :precision => 2, :delimiter => ',') %></td>
     </tr>
   </table>
 

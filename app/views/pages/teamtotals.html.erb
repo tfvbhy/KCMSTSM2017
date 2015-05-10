@@ -10,22 +10,22 @@
 	<% Team.all.each do |team| %>
 	<tr>
 	  <td><strong><%= link_to team.name, teammanagement_path(:id => team.id) %></strong></td>
-      <td><%= @team_total_cash[team.id - 1] %> </td>
-      <td><%= @team_total_check[team.id - 1] %></td>
-      <td><%= @team_total_amount[team.id - 1] %></td>
+      <td><%= number_with_precision(@team_total_cash[team.id - 1], :precision => 2, :delimiter => ',') %> </td>
+      <td><%= number_with_precision(@team_total_check[team.id - 1], :precision => 2, :delimiter => ',') %></td>
+      <td><%= number_with_precision(@team_total_amount[team.id - 1], :precision => 2, :delimiter => ',') %></td>
 	</tr>
 	<% end %>
 	<tr>
 	    <td><strong>Leaders</strong></td>
-        <td><%= @team_total_cash[Team.all.size] %> </td>
-        <td><%= @team_total_check[Team.all.size] %></td>
-        <td><%= @team_total_amount[Team.all.size] %></td>
+        <td><%= number_with_precision(@team_total_cash[Team.all.size], :precision => 2, :delimiter => ',') %> </td>
+        <td><%= number_with_precision(@team_total_check[Team.all.size], :precision => 2, :delimiter => ',') %></td>
+        <td><%= number_with_precision(@team_total_amount[Team.all.size], :precision => 2, :delimiter => ',') %></td>
 	</tr>
     <tr>
       <td><strong>Overall</strong></td>
-      <td><%= @total_cash %> </td>
-      <td><%= @total_check %></td>
-      <td><%= @total_amount %></td>
+      <td><%= number_with_precision(@total_cash, :precision => 2, :delimiter => ',') %> </td>
+      <td><%= number_with_precision(@total_check, :precision => 2, :delimiter => ',') %></td>
+      <td><%= number_with_precision(@total_amount, :precision => 2, :delimiter => ',') %></td>
     </tr>
   </table>
 
