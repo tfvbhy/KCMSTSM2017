@@ -8,7 +8,7 @@
 	<% @counter = 0 %>
 	<% @users.each do |u| %>
 	<tr>
-	  <% if u.leader? %>
+	  <% if u == current_user %>
 	    <td><%= link_to u.fullname + " (Leader)", root_path %></td>
 	  <% else %>
 	    <td><%= link_to u.fullname, leaderlookup_path(:id => u.id) %></td>
