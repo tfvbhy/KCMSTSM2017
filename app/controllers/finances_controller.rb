@@ -12,7 +12,11 @@ class FinancesController < ApplicationController
         @finance = Finance.new
 #         Get all user names
         @user = User.new
-
+		@team_filter = Array.new
+		Team.all.each do |team|
+			@team_filter.push [team.name, team.id]
+		end
+		
         @finances_grid = initialize_grid(Finance,
           :name => 'g1',
           :include => [:user],
@@ -22,6 +26,11 @@ class FinancesController < ApplicationController
           :csv_file_name => 'KCMSTSMFINANCES')
 
       else
+	  	@team_filter = Array.new(Team.all.size)
+		Team.all.each do |team|
+			@team_filter[team.id] = [team.name, team.id]
+		end
+		
         @finances_grid = initialize_grid(Finance,
           :include => [:user],
           :order => 'finances.id',

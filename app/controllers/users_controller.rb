@@ -50,6 +50,15 @@ class UsersController < ApplicationController
   end 
   
   def editusers
+	@team_filter = Array.new
+	Team.all.each do |team|
+		@team_filter.push [team.name, team.id]
+	end
+	
+	@school_filter = Array.new
+	School.all.each do |school|
+		@school_filter.push [school.name, school.id]
+	end
 	@editusers_grid = initialize_grid(User,
       :name => 'g2',
       :order => 'users.id',
