@@ -1,4 +1,9 @@
 <h1><%= @user.fullname %>'s Finances</h1> <br>
+
+<% @total_cash = 0 %>
+<% @total_check = 0 %>
+<% @total_amount = 0 %>
+
 <div class="container">
   <%= render :partial => "finances/finances_grid" %>
     <div class ="form-actions">
