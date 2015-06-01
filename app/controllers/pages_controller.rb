@@ -40,6 +40,7 @@ class PagesController < ApplicationController
       if current_user.leader? || current_user.admin?
 		@team_id = params[:id]
 	    @users = User.where(:team => @team_id).order(:id)
+		@TOTAL_COST = 3500
 		@total_amount = 0
 		@num_trainees = 0
 		@member_total_amount = Array.new(@users.size, 0)
