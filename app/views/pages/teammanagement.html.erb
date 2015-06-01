@@ -17,7 +17,7 @@
 	  <% end %>
       <td><%= number_with_precision(@member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
 	  
-	  <% if @TOTAL_COST - @member_total_amount[@counter] < 0 || u.leader? %>
+	  <% if @TOTAL_COST - @member_total_amount[@counter] <= 0 || u.leader? %>
 	    <% if u.leader? %>
 		  <td><font color=#007A00><%= number_with_precision(0 - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %></font></td>
 		<% else %>
