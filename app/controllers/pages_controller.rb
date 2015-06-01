@@ -41,6 +41,7 @@ class PagesController < ApplicationController
 		@team_id = params[:id]
 	    @users = User.where(:team => @team_id).order(:id)
 		@total_amount = 0
+		@num_trainees = 0
 		@member_total_amount = Array.new(@users.size, 0)
 		
 		if current_user.team != @team_id && !current_user.admin?
@@ -51,6 +52,7 @@ class PagesController < ApplicationController
 		    @member_total_amount[@counter] = u.finances.sum("cash_amount") + u.finances.sum("check_amount")
 		    if !u.leader?
 		      @total_amount += @member_total_amount[@counter]
+			  @num_trainees += 1
 		    end
 		    @counter += 1
 		  end

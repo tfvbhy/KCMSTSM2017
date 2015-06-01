@@ -3,7 +3,9 @@
   <table class = "table table-striped table-bordered">
     <tr class ="info">
       <td><strong>Name</strong></td>
-      <td><strong>Total Amount</strong></td>
+      <td><strong>Total Amount Raised</strong></td>
+	  <td><strong>Total Amount Remaining</strong></td>
+	  <td><strong>Goal Reached?</strong></td>
     </tr>
 	<% @counter = 0 %>
 	<% @users.each do |u| %>
@@ -14,12 +16,22 @@
 	    <td><%= link_to u.fullname, leaderlookup_path(:id => u.id) %></td>
 	  <% end %>
       <td><%= number_with_precision(@member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
+	  
+	  <% if 3500 - @member_total_amount[@counter] < 0 %>
+	    <td><%= number_with_precision(3500 - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
+		<td> Yes </td>
+	  <% else %>
+	    <td><%= number_with_precision(3500 - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
+		<td> No </td>
+	  <% end %>
 	</tr>
 	<% @counter += 1 %>
 	<% end %>
     <tr>
       <td><strong>Overall (Does not include Leader's raised funds)</strong></td>
       <td><%= number_with_precision(@total_amount, :precision => 2, :delimiter => ',') %></td>
+	  <td><%= number_with_precision((3500 * @num_trainees) - @total_amount, :precision => 2, :delimiter => ',') %></td>
+	  <td>N/A</td>
     </tr>
   </table>
 
