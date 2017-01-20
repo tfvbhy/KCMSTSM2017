@@ -1,7 +1,5 @@
 KcmOnline::Application.routes.draw do
   resources :schools
-
-
   resources :teams
 
 
