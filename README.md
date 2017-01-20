@@ -1,10 +1,16 @@
 #KCM STSM 2015 Finance Web App
 [Check it out Here!](http://kcmstsm2015.herokuapp.com)
+Admins are able to log cash and check donations made to individuals
+![image not found](/public/AdminView.png?raw=true "Admin View")
 
-![Admins are able to log cash and check donations made to individuals](/public/AdminView.png?raw=true "Admin View")
-![In addition, admins can view the total amount of donations made to teams and individuals](/public/AdminView2.png?raw=true "Admin View 2")
-![Team Leaders are able to view the donations made to themselves and individuals on their team](/public/LeaderView.png?raw=true "Leader View")
-![Users are only able to view donations made to them](/public/UserView.png?raw=true "User View")
+In addition, Admins can view the total amount of donations made to teams and individuals
+![image not found](/public/AdminView2.png?raw=true "Admin View 2")
+
+Team Leaders are able to view the donations made to themselves and individuals on their team
+![image not found](/public/LeaderView.png?raw=true "Leader View")
+
+Users are only able to view donations made to them
+![image not found](/public/UserView.png?raw=true "User View")
 
 
 ###[Korean-American Campus Missions](http://kcmonline.org) Short Term Summer Missions program's web application used to record all donations made to the program. 
