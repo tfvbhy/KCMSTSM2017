@@ -39,10 +39,12 @@ class PagesController < ApplicationController
 	if user_signed_in?
       if current_user.leader? || current_user.admin?
 		@team_id = params[:id]
-	    @users = User.where(:team => @team_id).order(:id)
-		@TOTAL_COST = 3500
+	    	@users = User.where(:team => @team_id).order(:id)
+		@TRAINEE_COST = 3600
+		@COLEADER_COST = 1800
+		@LEADER_COST = 0
 		@total_amount = 0
-		@num_trainees = 0
+		@total_cost = 0
 		@member_total_amount = Array.new(@users.size, 0)
 		
 		if current_user.team != @team_id && !current_user.admin?
@@ -51,10 +53,16 @@ class PagesController < ApplicationController
 		  @counter = 0
 		  @users.each do |u| 
 		    @member_total_amount[@counter] = u.finances.sum("cash_amount") + u.finances.sum("check_amount")
+		    @cost = 0
 		    if !u.leader?
-		      @total_amount += @member_total_amount[@counter]
-			  @num_trainees += 1
+			@cost = @TRAINEE_COST
+		    elsif u.coleader?
+			@cost = @COLEADER_COST
+		    else
+			@cost = @LEADER_COST
 		    end
+		    @total_cost += cost
+		    @total_amount += @member_total_amount[@counter]
 		    @counter += 1
 		  end
 		end
