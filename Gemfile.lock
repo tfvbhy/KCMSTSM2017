@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
@@ -152,3 +152,9 @@ DEPENDENCIES
   sqlite3
   uglifier (>= 1.0.3)
   wice_grid (= 3.2.1)
+
+RUBY VERSION
+   ruby 1.9.3p551
+
+BUNDLED WITH
+   1.14.6
