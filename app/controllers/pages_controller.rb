@@ -61,7 +61,7 @@ class PagesController < ApplicationController
 		    else
 			@cost = @LEADER_COST
 		    end
-		    @total_cost += cost
+		    @total_cost += @cost
 		    @total_amount += @member_total_amount[@counter]
 		    @counter += 1
 		  end
