@@ -16,11 +16,11 @@
 	    <td><%= link_to u.fullname, leaderlookup_path(:id => u.id) %></td>
 	  <% end %>
       <td><%= number_with_precision(@member_total_amount[@counter], :precision => 2, :delimiter => ',') %> </td>
-	  <% if (@cost < @member_total_amount[@counter]) %>
-		<td><font color=#007A00><%= number_with_precision(@cost - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %></font></td>
+	  <% if (@cost[@counter] < @member_total_amount[@counter]) %>
+		<td><font color=#007A00><%= number_with_precision(@cost[@counter] - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %></font></td>
 		<td><font color=#007A00> Yes </font></td> 
 	  <% else %>
-	 	<td><font color=#990000><%= number_with_precision(@cost - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %></font></td>
+	 	<td><font color=#990000><%= number_with_precision(@cost[@counter] - @member_total_amount[@counter], :precision => 2, :delimiter => ',') %></font></td>
 		<td><font color=#990000> No </font></td>
 	  <% end %>
 	</tr>

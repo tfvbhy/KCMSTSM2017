@@ -46,6 +46,7 @@ class PagesController < ApplicationController
 		@total_amount = 0
 		@total_cost = 0
 		@member_total_amount = Array.new(@users.size, 0)
+		@cost = Array.new(@users.size, 0)
 		
 		if current_user.team != @team_id && !current_user.admin?
 		  redirect_to root_path, notice: "Not authorized"
@@ -53,15 +54,14 @@ class PagesController < ApplicationController
 		  @counter = 0
 		  @users.each do |u| 
 		    @member_total_amount[@counter] = u.finances.sum("cash_amount") + u.finances.sum("check_amount")
-		    @cost = 0
 		    if !u.leader?
-			@cost = @TRAINEE_COST
+			@cost[@counter] = @TRAINEE_COST
 		    elsif u.coleader?
-			@cost = @COLEADER_COST
+			@cost[@counter] = @COLEADER_COST
 		    else
-			@cost = @LEADER_COST
+			@cost[@counter] = @LEADER_COST
 		    end
-		    @total_cost += @cost
+		    @total_cost += @cost[@counter]
 		    @total_amount += @member_total_amount[@counter]
 		    @counter += 1
 		  end
